@@ -1,0 +1,96 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.scenes {
+    width: 250px;
+    border-radius: 50%;
+    border: 0.1px solid black;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 0.1px solid black;
+}
+
+
+.hero {
+    background: url('images/background.jpeg');
+    background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cantora One', sans-serif;
+}
+
+#title {
+    color: white;
+    text-shadow: 0px 0px 20px black;
+    font-size: 70px;
+}
+
+#title-des {
+    color: white;
+    text-shadow: 0px 0px 20px black;
+    font-size: 30px;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 0px 50px 0px;
+    background: linear-gradient(rgb(111, 206, 243), rgb(207, 242, 207));
+    padding: 0px 10px 30px 10px;
+    font-family: 'Happy Monkey', system-ui;
+}
+
+.activities-data {
+    display: flex;
+    justify-content: space-around;
+}
+
+.guide {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #bdeba3;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 6px solid rgb(156, 202, 243);
+    font-family: 'Lemon', serif;
+    margin-bottom: 20px;
+}
+
+.main {
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px;
+    background: rgb(207, 242, 207);
+}
+
+.scenes:hover {
+    transform: scale(1.2);
+    border-radius: 20%;
+}
+
+.act-text {
+    padding: 0 100px 0 100px;
+}
