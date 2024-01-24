@@ -62,9 +62,17 @@ body {
 }
 
 .activities-data {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
+
+@media screen and (max-width: 1200px) {
+    .activities-data {
+      flex-direction: column;
+    }
+  }
+
 
 .guide {
     width: 500px;
@@ -79,6 +87,12 @@ body {
     font-family: 'Lemon', serif;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .guide {
+        width: 90%;
+    }
+  }
 
 .main {
     border: 1px solid black;
